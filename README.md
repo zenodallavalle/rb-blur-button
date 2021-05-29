@@ -14,19 +14,8 @@ You can use it as a react-bootstrap button, except you import it from rb-blur-bu
 
 ## Example
 
-<a href="https://codesandbox.io/embed/rb-blur-button-example-nw2ur?fontsize=14&hidenavigation=1&theme=dark&view=preview">
+<a href="https://codesandbox.io/embed/rb-blur-button-example-nw2ur?fontsize=14&hidenavigation=1&theme=dark&view=preview" target="_blank" rel="noreferrer">
   <span>Code SandBox Example</span>
   <br/>
   <img alt="code sandbox preview" src="https://github.com/zenodallavalle/rb-blur-button/blob/main/readme_imgs/sandbox.1.pre.png?raw=true" />
 </a>
-
-## Contents of this repo
-### dist
-
-rb-blur-button is located in dist folder.
-
-### example
-
-This entire repo is actually an example, created with <code>create-react-app</code>.
-You can just clone it, resolve dependencies with <code>yarn</code> and run it with <code>yarn start</code>.
-
