@@ -9,4 +9,5 @@ React-Bootstrap Button that automatically blurs when clicked
 ## Usage
 
 You can use it as a react-bootstrap button, except you import it from rb-blur-button.
+
 <code>import {Button} from 'rb-blur-button';</code>
