@@ -14,7 +14,7 @@ You can use it as a react-bootstrap button, except you import it from rb-blur-bu
 
 ## Example
 
-<a href="https://codesandbox.io/embed/rb-blur-button-example-nw2ur?fontsize=14&hidenavigation=1&theme=dark&view=preview" target="_blank" rel="noreferrer">
+<a href="https://codesandbox.io/embed/rb-blur-button-example-nw2ur?fontsize=14&hidenavigation=1&theme=dark&view=preview">
   <span>Code SandBox Example</span>
   <br/>
   <img alt="code sandbox preview" src="https://github.com/zenodallavalle/rb-blur-button/blob/main/readme_imgs/sandbox.1.pre.png?raw=true" />
