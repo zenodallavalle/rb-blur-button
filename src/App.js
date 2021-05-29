@@ -8,23 +8,23 @@ import gitHubIcon from './img/github.png';
 function App() {
   const [count, setCount] = useState(0);
   return (
-    <div>
+    <div className='p-2'>
       <div className='d-flex justify-content-between'>
         <div></div>
         <div>
-          <span className='p-1'>
+          <span className='p-2'>
             <a href='https://www.npmjs.com/package/rb-blur-button'>
               <img src={npmIcon} alt='npm' style={{ height: 35 }}></img>
             </a>
           </span>
-          <span className='p-1'>
+          <span className='p-2'>
             <a href='https://github.com/zenodallavalle/rb-blur-button'>
               <img src={gitHubIcon} alt='npm' style={{ height: 35 }}></img>
             </a>
           </span>
         </div>
       </div>
-      <div className='container-fluid m-4 text-center'>
+      <div className='text-center'>
         <h4 className='display-4'>React Bootstrap Blur Button</h4>
         <hr></hr>
         <p>
