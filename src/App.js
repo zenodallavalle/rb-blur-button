@@ -13,7 +13,7 @@ function App() {
         <div></div>
         <div>
           <span className='p-1'>
-            <a href='npm'>
+            <a href='https://www.npmjs.com/package/rb-blur-button'>
               <img src={npmIcon} alt='npm' style={{ height: 35 }}></img>
             </a>
           </span>
