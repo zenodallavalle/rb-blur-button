@@ -1,6 +1,6 @@
 {
   "name": "rb-blur-button",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "private": false,
   "description": "React-Bootstrap Button that automatically blurs when clicked",
   "author": "Zeno Dalla Valle",
