@@ -25,15 +25,15 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-const onClick = props => e => {
+const onFocus = props => e => {
   setImmediate(() => {
     e.target.blur();
   });
-  if (props.onClick) props.onClick(e);
+  if (props.onFocus) props.onFocus(e);
 };
 
 const getPropsForElement = props => _objectSpread(_objectSpread({}, props), {}, {
-  onClick: onClick(props)
+  onFocus: onFocus(props)
 });
 
 const Button = props => /*#__PURE__*/_react.default.createElement(rb.Button, getPropsForElement(props));
