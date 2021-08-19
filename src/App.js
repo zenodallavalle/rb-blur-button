@@ -80,6 +80,27 @@ function App() {
           </p>
         )}
       </div>
+      <div className='my-4'>
+        <p className='text-center'>
+          Of course all bootstrap's styles are available:
+        </p>
+        {[
+          'primary',
+          'secondary',
+          'success',
+          'warning',
+          'danger',
+          'light',
+          'info',
+          'a',
+        ].map((style) => (
+          <p key={style} className='text-center'>
+            <rb.Button style={{ width: 150 }} variant={style}>
+              {style}
+            </rb.Button>
+          </p>
+        ))}
+      </div>
     </div>
   );
 }
